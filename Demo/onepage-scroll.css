@@ -31,7 +31,14 @@ body, .onepage-wrapper, html {
 .onepage-pagination {
   position: absolute;
   right: 10px;
-  top: 50%;
+  top: 10%;
+  bottom: 10%;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
   z-index: 5;
   list-style: none;
   margin: 0;
